@@ -1,0 +1,65 @@
+body {
+  background-image: url("../img/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  background-color: #001634ba;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem;
+  color: #fff;
+}
+
+.container > h1 {
+  color: #ff873d;
+  margin-bottom: 0px;
+}
+.container > h3 {
+  margin-top: 0px;
+}
+.container > p{
+    font-size: 16px;
+}
+.container > p > a {
+  text-decoration: none;
+  color: #ff873d;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/6843SteffenLemkeBewerbung9x6.jpg);
+  background-size: cover;
+  background-position: top;
+}
+@media only screen and (max-width: 599px) {
+    .img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(../img/6843SteffenLemkeBewerbung9x6.jpg);
+        background-size: cover;
+        background-position: top;
+      }
+    .container {
+      padding: 1rem;
+      
+    }
+  }

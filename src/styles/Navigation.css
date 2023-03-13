@@ -1,0 +1,37 @@
+.navbar{
+  width: 80%;
+  background-color: #001634ba;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3rem;
+  padding-bottom: 1rem;
+  list-style: none;
+  font-size: 20px;
+  gap: 3rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ff873d;
+}
+  
+.navbar a:hover,
+.navbar a.active
+{
+  color: #ffffff;
+  border-bottom: 4px solid #ff873d;
+
+}
+
+@media only screen and (max-width: 799px) {
+  .navbar {
+    justify-content: space-around;
+    font-size: 16px;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+
+
+
