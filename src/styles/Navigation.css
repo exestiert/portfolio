@@ -1,5 +1,5 @@
 .navbar{
-  width: 80%;
+ max-width: 800px;
   background-color: #001634ba;
   display: flex;
   justify-content: flex-end;
