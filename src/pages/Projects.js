@@ -76,7 +76,7 @@ export default function Projects() {
             </a>
           </div>
           <h2 className={styles.titel}>Queere Bewegung junger Menschen</h2>
-          <p> Details: Reales Projekt welches in Arbeit befindet, erstellt mit WordPress und Elementor Plugin</p>
+          <p> Details: Reales Projekt welches sich in Arbeit befindet, erstellt mit WordPress und Elementor Plugin</p>
           <a className={styles.code} href="https://not-a-phase.com/">
             Webseite
           </a>
