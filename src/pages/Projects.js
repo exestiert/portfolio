@@ -5,6 +5,7 @@ import bilderGalerie from "../img/Bilder-Galerie.png";
 import pokemon from "../img/Pokemon.png";
 import schachspiel from "../img/Schachspiel.png";
 import platzhalter from "../img/Platzhalter.svg";
+import itsNotAPhase from "../img/not-a-phase.png"
 
 export default function Projects() {
   return (
@@ -17,7 +18,7 @@ export default function Projects() {
               <img
                 className={styles.imgSize}
                 src={bilderGalerie}
-                alt="Bilder Galerie"
+                alt="Vorschaubild Bilder Galerie"
               />
             </a>
           </div>
@@ -33,7 +34,7 @@ export default function Projects() {
         <div className={styles.imgCard}>
           <div className={styles.img}>
             <a href="https://pokemon-app-exestiert.vercel.app/">
-              <img className={styles.imgSize} src={pokemon} alt="Pokemon API" />
+              <img className={styles.imgSize} src={pokemon} alt="Vorschaubild Pokemon API" />
             </a>
           </div>
           <h2 className={styles.titel}>Pokémon Datenbank</h2>
@@ -51,7 +52,7 @@ export default function Projects() {
               <img
                 className={styles.imgSize}
                 src={schachspiel}
-                alt="Schachspiel"
+                alt="Vorschaubild Schachspiel"
               />
             </a>
           </div>
@@ -66,18 +67,18 @@ export default function Projects() {
         </div>
         <div className={styles.imgCard}>
           <div className={styles.img}>
-            <a href="/projects">
+            <a href="https://not-a-phase.com/">
               <img
                 className={styles.imgSize}
-                src={platzhalter}
-                alt="Platzhalter"
+                src={itsNotAPhase}
+                alt="Vorschaubild von not-a-phase.com"
               />
             </a>
           </div>
-          <h2 className={styles.titel}>Titel</h2>
-          <p> Details:</p>
-          <a className={styles.code} href="/projects">
-            Klicke hier für den Code
+          <h2 className={styles.titel}>Queere Bewegung junger Menschen</h2>
+          <p> Details: Reales Projekt welches in Arbeit befindet, erstellt mit WordPress und Elementor Plugin</p>
+          <a className={styles.code} href="https://not-a-phase.com/">
+            Webseite
           </a>
         </div>
         <div className={styles.imgCard}>
